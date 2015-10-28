@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="32dp"
+             tools:context="com.ezioshiki.customviewapp.fragments.MainFragment">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PoorClockFragment"
+        android:id="@+id/poor_clock_fragment_btn"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NiceTextOrientationClockFragment"
+        android:id="@+id/nice_text_orientation_clock_fragment"/>
+
+</LinearLayout>
